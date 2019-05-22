@@ -3,3 +3,5 @@ Luke Skywalker
 Leia Skywalker
 Anakin Skywalker
 Obi-Wan Kenobi
+Kylo Ren
+Kit Fisto
