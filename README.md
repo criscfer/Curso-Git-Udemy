@@ -2,4 +2,4 @@
 
 Este é um repositório utilizado para commits relacionados ao curso de git
 
-![./Rigel.png]
+Rigel.png
