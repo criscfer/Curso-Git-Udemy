@@ -1,0 +1,17 @@
+Comandos de Git:
+-git init: cria um repositório vazio no diretório atual
+-git add: adiciona um arquivo ao repositório ("git add ." adiciona todos os arquivos do diretório ao repositório)
+-git commit: confirma mudanças realizadas ao repositório (é necessário adicionar uma mensagem de commit sempre que utilizado. Isto auxilia na manutenção do histórico de commits)
+-git config: configura os dados do usuário do repositório (uso: git config --global user. name "nome do usuário" // git config --global user.email "e-mail da conta GitHub")
+-git log: mostra o histórico de commits do repositório, bem como as mensagens de cada commit
+-git status: mostra o status do repositório (se há, ou não, mudanças a terem seus commits realizados, ou se há conflitos entre o repositório na máquina e no GitHub)
+-git remote: cria o repositório remoto no GitHub (uso: crie um repositório no GitHub, depois siga as instruções de uso do GitHub)
+-git push: envia arquivo para o arquivo para o repositório remoto
+-git pull: faz o download de arquivo do repositório remoto para o repositório local (no PC)
+-git clone: baixa todo o repositório remoto para o diretório do PC
+-git branch: cria uma "branch" (lista de commits) no repositório local
+
+
+
+Ordem de comandos para sincronizar repositórios local e remoto: 
+git add -> git commit -> git push
