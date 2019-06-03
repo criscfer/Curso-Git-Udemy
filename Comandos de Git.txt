@@ -9,7 +9,8 @@ Comandos de Git:
 -git push: envia arquivo para o arquivo para o repositório remoto
 -git pull: faz o download de arquivo do repositório remoto para o repositório local (no PC)
 -git clone: baixa todo o repositório remoto para o diretório do PC
--git branch: cria uma "branch" (lista de commits) no repositório local
+-git branch: cria uma "branch" (lista de commits) no repositório local (uso: git branch "nome da nova ramificação")
+-git checkout: muda o status da branch, ou altera a branch em que o usuário está trabalhando (uso: git checkpout "nome da branch")
 
 
 
