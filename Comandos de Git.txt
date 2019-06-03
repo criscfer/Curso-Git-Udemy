@@ -11,6 +11,8 @@ Comandos de Git:
 -git clone: baixa todo o repositório remoto para o diretório do PC
 -git branch: cria uma "branch" (lista de commits) no repositório local (uso: git branch "nome da nova ramificação")
 -git checkout: muda o status da branch, ou altera a branch em que o usuário está trabalhando (uso: git checkpout "nome da branch")
+-git merge: adiciona commits de uma branch na branch atual (uso: git merge "nome da ramificação a ser mescalda com a ramificação atual de trabalho")
+
 
 
 
