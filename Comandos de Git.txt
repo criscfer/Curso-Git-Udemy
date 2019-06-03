@@ -15,6 +15,10 @@ Comandos de Git:
 -git rebase: semelhante ao git merge, porém prioriza os commits da ramificação a ser mesclada com a atual. Após mesclar as ramificações, os commits realizados na ramificação atual antes do comando "rebase" terão seus commits realizados (diferentemente do "merge", o "rebase" não gera um commit para si)
 -git fetch: baixa o repositório remoto para o PC, mas não altera o repositório local (não realiza o merge)
 -get tag: adiciona um "lembrete" a um commit (uso: git tag "mensagem" -> git push "tag")
+-git stash: salva o estado atual do diretório sem alterar o status (git stash list: mostra a lista de arquivos salvos no stash; git stash pop: retorna o estado do diretório pré-stash)
+-git cherry-pick: aplica as alterações de um commit na ramificação atual (git cherrypick "commit")
+-git blame: mostra alterações feitas em um arquivo por linha (git blame "nome do arquivo").
+-git bisect: realiza uma busca binária em cada commit para encontrar alterações (git bisect start (inicia a busca), git bisect bad (denucia o commit indesejado), git bisect good (indica o commit desejado), git bisect reset (restaura o estado para o commit desejado))
 
 
 
