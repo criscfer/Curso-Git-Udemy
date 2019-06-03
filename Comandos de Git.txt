@@ -12,9 +12,12 @@ Comandos de Git:
 -git branch: cria uma "branch" (lista de commits) no repositório local (uso: git branch "nome da nova ramificação")
 -git checkout: muda o status da branch, ou altera a branch em que o usuário está trabalhando (uso: git checkpout "nome da branch")
 -git merge: adiciona commits de uma branch na branch atual (uso: git merge "nome da ramificação a ser mescalda com a ramificação atual de trabalho")
+-git rebase: semelhante ao git merge, porém prioriza os commits da ramificação a ser mesclada com a atual. Após mesclar as ramificações, os commits realizados na ramificação atual antes do comando "rebase" terão seus commits realizados (diferentemente do "merge", o "rebase" não gera um commit para si)
+-git fetch: baixa o repositório remoto para o PC, mas não altera o repositório local (não realiza o merge)
+-get tag: adiciona um "lembrete" a um commit (uso: git tag "mensagem" -> git push "tag")
 
 
 
 
 Ordem de comandos para sincronizar repositórios local e remoto: 
-git add -> git commit -> git push
+git add -> git commit -> git push 
